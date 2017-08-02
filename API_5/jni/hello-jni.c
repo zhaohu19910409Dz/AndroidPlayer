@@ -119,8 +119,8 @@ JNIEXPORT jstring JNICALL Java_com_example_api_15_MainActivity_stingFromJNI
 	avformat_network_init();
 	pFormatCtx = avformat_alloc_context();
 	//char* url="/sdcard/test.mp4";
-	char* url="/sdcard/2.mkv";
-	//char* url="rtmp://live.hkstv.hk.lxdns.com/live/hks";
+	//char* url="/sdcard/2.mkv";
+	char* url="rtmp://live.hkstv.hk.lxdns.com/live/hks";
 
 	//      if(avformat_open_input(&pFormatCtx,url,NULL,NULL) != 0)
 	//      {
